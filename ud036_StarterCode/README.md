@@ -11,4 +11,4 @@ website shows the trailer of best movies ever watched.
 
 **fresh_tomatoes.py** : It contains the style and scripting for page and open new dialog for the movie trailer.
 
-**media.pyfile**  : it cintains the class and its method to launch the trailer of movie.
+**media.pyfile**  : it contains the class and its method to launch the trailer of movie.
