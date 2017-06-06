@@ -1,5 +1,8 @@
 import fresh_tomatoes
-import media
+import media  # media file imported for the class Movie
+
+""" Created object,pass value to the Movie class
+ Movie("self",moivename,storyline,imageurl,movietailerurl) """
 
 ChiSauka = media.Movie("Chi va Chi Sau Ka", "Marathi movie,story of different/"
                        "Arrange Marriage",
@@ -66,8 +69,9 @@ findingdory = media.Movie("Finding Dory", "Story of Dory fish",
                           "1/1b/Finding_Dory_Screenshot_0089.jpg/revision//"
                           "latest/scale-to-width-down/1000?cb=20161030192450",
                           "https://www.youtube.com/watch?v=otnKrHHFx80")
-
+# movies array is created
 movies = [findingdory, bahubalimovie, Bahubali2, zindagina, jabwemet,
           loveuzindagi, katyar, postergirl, ChiSauka]
 
+# movie array is passed to function open_movie_page()
 fresh_tomatoes.open_movies_page(movies)
